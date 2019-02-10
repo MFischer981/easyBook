@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+body {
+    background: rgb(188, 228, 224);
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    height: 61px;
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+}
+
+nav a {
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    color: rgb(8, 170, 156);
+    padding: 20px 0 20px 20px;
+    text-decoration: none;
+    transition: .2s;
+}
+
+nav a:hover {
+    color: rgb(172, 172, 172);
+}
+
+form {
+    background: white;
+    margin: 0 auto;
+    max-width: 500px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 22px;
+    color: grey;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    padding: 3vw;
+    border-radius: 10px;
+    margin-top: 10vh;
+}
+
+form h1 {
+    margin: 0 0 20px 0;
+    text-align: center;
+    color: rgb(8, 170, 156);
+    text-shadow: 0 0 2px rgb(83, 236, 223);
+}
+
+form h2 {
+    margin: 0 0 6px 0;
+    color: rgb(39, 39, 39);
+    text-shadow:  0 0 1px rgb(172, 172, 172);
+}
+
+input {
+    display: block;
+    margin-bottom: 12px;
+    padding: 6px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 22px;
+    border: 1px rgb(226, 226, 226) solid;
+    border-radius: 10px;
+}
+
+select {
+    display: block;
+    margin-bottom: 12px;
+    padding: 6px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 22px;
+    border: 1px rgb(226, 226, 226) solid;
+    border-radius: 10px;
+}
+
+.uibutton {
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+    font-size: 22px;
+    color: white;
+    padding: 10px 20px;
+    background: rgb(8, 170, 156);
+    box-shadow: 0 0 20px rgb(83, 236, 223);
+    border: none;
+    transition: .2s;
+}
+
+.uibutton:hover {
+    background: white;
+    color: rgb(39, 39, 39);
+}
+
+form a {
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+    font-size: 22px;
+    color: white;
+    padding: 10px 20px;
+    background: rgb(39, 39, 39);
+    box-shadow: 0 0 20px rgb(172, 172, 172);
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: .2s;
+}
+
+form a:hover {
+    background: white;
+    color: rgb(39, 39, 39);
+}

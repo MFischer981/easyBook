@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    </head>
+    <body>
+            <nav>
+                    <a href="register.html"><i class="fas fa-user-plus"></i> Sign Up</a>
+                    <a href="login.html"><i class="fas fa-sign-in-alt"></i> Sign In</a>
+                </nav>
+        <form method="post" class="userForm" action="/register">
+            <h1>EasyBook</h1>
+            <h2>Create Account</h2>
+            Account Type:
+            <select name="type">
+              <option value="student">Student</option>
+              <option value="student">Teacher</option>
+            </select>
+            <label for="">First Name</label>
+            <input type="text" name="firstName">
+            <label for="">Last Name</label>
+            <input type="text" name="lastName">
+            <label for="">Email Address</label>
+            <input type="text" name="email">
+            <label for="">Password</label>
+            <input type="password" name="password1">
+            <label for="">Confirm Password</label>
+            <input type="password" name="password2">
+            <input type="submit" name"submit"="" value="Sign Up" class="uibutton">
+            <a href="login.html">Login</a>
+          </form>
+        <script src="" async defer></script>
+    </body>
+</html>
