@@ -15,7 +15,62 @@
     <nav>
         <a href="register.html"><i class="fas fa-user"></i> Profile</a>
         <a href="login.html"><i class="fas fa-sign-out-alt"></i> Sign Out</a>
+        <button onclick="popup()"><i class="fas fa-book"></i> Add Book</button>
     </nav>
+    <!-- Second Stage Popup -->
+    <form id="popup_stage1">
+        <h1>easyBook</h1>
+        <h2>Create A Class</h2>
+        <label for="">Name your class.</label>
+        <input type="text">
+        <input type="button" name="" value="Next Step" class="uibutton" onclick="popup2()">
+    </form>
+    <!-- Second Stage Popup -->
+    <form id="popup_stage2">
+        <h1>easyBook</h1>
+        <h2>Add A Book</h2>
+        <label for="">Search for a book</label>
+        <input type="text">
+        <div class="bookbox">
+            <div class="book">
+                <span>Book Title</span>
+                <span class="bookauthor">Book Author</span>
+                <input type="button" name="" value="Add Book" class="uibutton">
+            </div>
+            <div class="book">
+                <span>Book Title</span>
+                <span class="bookauthor">Book Author</span>
+                <input type="button" name="" value="Add Book" class="uibutton">
+            </div>
+            <div class="book">
+                <span>Book Title</span>
+                <span class="bookauthor">Book Author</span>
+                <input type="button" name="" value="Add Book" class="uibutton">
+            </div>
+        </div>
+        <input type="button" name="" value="Next Step" class="uibutton" onclick="popup3()">
+    </form>
+    <!-- Third Stage Popup -->
+    <form id="popup_stage3">
+        <h1>easyBook</h1>
+        <h2>Generate Codes</h2>
+        <label for="">Select the number of book codes you wish to generate.</label>
+        <input type="text">
+        <input type="button" name="" value="Generate Codes" class="uibutton" onclick="">
+
+        <div class="codebox">
+            <span class="code">ABC456XYZ</span>
+            <span class="code">ABC456XYZ</span>
+            <span class="code">ABC456XYZ</span>
+            <span class="code">ABC456XYZ</span>
+            <span class="code">ABC456XYZ</span>
+            <span class="code">ABC456XYZ</span>
+            <span class="code">ABC456XYZ</span>
+            <span class="code">ABC456XYZ</span>
+        </div>
+        <input type="button" name="" value="Next Step" class="uibutton" onclick="finish()">
+
+    </form>
     <div class="class-container">
         <div class="class">
             <h2>Subject</h2>
@@ -48,7 +103,7 @@
             <a href="#">Enter Class</a>
         </div>
     </div>
-    <script src="" async defer></script>
+    <script src="main.js" async defer></script>
 </body>
 
 </html>

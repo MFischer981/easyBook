@@ -28,6 +28,23 @@ nav a:hover {
     color: rgb(172, 172, 172);
 }
 
+nav button {
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    color: rgb(8, 170, 156);
+    padding: 20px 0 20px 20px;
+    text-decoration: none;
+    transition: .2s;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+nav button:hover {
+    color: rgb(172, 172, 172);
+}
+
 form {
     background: white;
     margin: 0 auto;
@@ -51,7 +68,7 @@ form h1 {
 form h2 {
     margin: 0 0 6px 0;
     color: rgb(39, 39, 39);
-    text-shadow:  0 0 1px rgb(172, 172, 172);
+    text-shadow: 0 0 1px rgb(172, 172, 172);
 }
 
 input {
@@ -114,9 +131,9 @@ form a:hover {
     margin-top: 60px;
     display: flex;
     flex-wrap: wrap;
-  }
-  
-  .class-container div.class {
+}
+
+.class-container div.class {
     display: block;
     flex: 0 0 200px;
     padding: 40px;
@@ -124,29 +141,29 @@ form a:hover {
     padding: 40px;
     border-radius: 10px;
     background: white;
-    margin: 20px;    
+    margin: 20px;
     font-family: 'Arimo', sans-serif;
     font-size: 22px;
     color: grey;
-  }
-  
-  .class-container div.class h2 {
+}
+
+.class-container div.class h2 {
     margin: 0 0 6px 0;
     color: rgb(39, 39, 39);
-    text-shadow:  0 0 1px rgb(172, 172, 172);
-  }
+    text-shadow: 0 0 1px rgb(172, 172, 172);
+}
 
-  .class-container div.class h3 {
+.class-container div.class h3 {
     margin: 0 0 6px 0;
     color: rgb(172, 172, 172);
-  }
+}
 
-  .class-container div.class h5 {
+.class-container div.class h5 {
     margin: 0 0 6px 0;
     color: rgb(172, 172, 172);
-  }
+}
 
-  .class-container div.class a {
+.class-container div.class a {
     display: inline-block;
     font-family: 'Arimo', sans-serif;
     font-size: 22px;
@@ -157,4 +174,57 @@ form a:hover {
     text-decoration: none;
     transition: .2s;
     margin-top: 10px;
+}
+
+#popup_stage1 {
+    z-index: 100;
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#popup_stage2 {
+    z-index: 100;
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#popup_stage3 {
+    z-index: 100;
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.bookbox, .codebox {
+    display: grid;
+    overflow-x: scroll;
+    max-height: 180px;
+    width: 300px;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.bookbox .book, .codebox .code {
+    padding: 10px;
+}
+
+.code {
+    padding: 0 10px;
+}
+
+span.bookauthor {
+    color: rgb(177, 177, 177);
+    display: block;
+    margin-bottom: 10px;
+}
+
+.bookbox .uibutton {
+    margin-bottom: 0;
 }
