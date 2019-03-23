@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <nav>
+        <a href="register.html"><i class="fas fa-user"></i> Profile</a>
+        <a href="login.html"><i class="fas fa-sign-out-alt"></i> Sign Out</a>
+    </nav>
+    <form id="popup_delete">
+            <h1>easyBook</h1>
+            <h2>Delete this student?</h2>
+            <label for="">Are you sure you want to delete this student.</label>
+            <br><br>
+            <input type="button" name="" value="Yes, I'm Sure" class="uibutton" onclick="acceptDelete()">
+            <input type="button" name="" value="Cancel" class="uibutton" onclick="closeDelete()">
+        </form>
+    <section>
+            <h1>ENH 101 English Literature</h1>
+            <h2>Mr. Teacher Name</h2>
+            <span id="code">AX96845ZYR</span>
+            <div class="book">
+                <h1>Book Name</h1>
+                <h2>Author Name</h2>
+                <a href="" class="uibutton">Read Book</a>
+            </div>
+           </section>
+    <div class="teacher">
+            <section>
+                    <h1>Students</h1>
+                    <ul>
+                        <li onclick="deleteStudent()">James Joe <span id="code">AX96845ZYR</span> <i class="fas fa-times"></i></li>
+                        <li onclick="deleteStudent()">Bob Billy <span id="code">AX96845ZYR</span> <i class="fas fa-times"></i></li>
+                        <li onclick="deleteStudent()">Anne Smith <span id="code">AX96845ZYR</span> <i class="fas fa-times"></i></li>
+                        <li onclick="deleteStudent()">Wendy Sue <span id="code">AX96845ZYR</span> <i class="fas fa-times"></i></li>
+                        <li onclick="deleteStudent()">Jordan Billy <span id="code">AX96845ZYR</span> <i class="fas fa-times"></i></li>
+                        <li onclick="deleteStudent()">Joseph Joe-Bob <span id="code">AX96845ZYR</span> <i class="fas fa-times"></i></li>
+                    </ul>
+                   </section>
+                   <section>
+                        <h1>Redeemed Codes</h1>
+                        <ul>
+                                <li onclick="deleteStudent()">James Joe <span id="code">AX96845ZYR</span> <i class="fas fa-times"></i></li>
+                                <li onclick="deleteStudent()">Bob Billy <span id="code">AX96845ZYR</span> <i class="fas fa-times"></i></li>
+                                <li onclick="deleteStudent()">Anne Smith <span id="code">AX96845ZYR</span> <i class="fas fa-times"></i></li>
+                                <li onclick="deleteStudent()">Wendy Sue <span id="code">AX96845ZYR</span> <i class="fas fa-times"></i></li>
+                                <li onclick="deleteStudent()">Jordan Billy <span id="code">AX96845ZYR</span> <i class="fas fa-times"></i></li>
+                                <li onclick="deleteStudent()">Joseph Joe-Bob <span id="code">AX96845ZYR</span> <i class="fas fa-times"></i></li>
+                        </ul>
+                       </section>
+    </div>
+   
+    <script src="main.js" async defer></script>
+</body>
+
+</html>

@@ -15,3 +15,18 @@ function popup3() {
 function finish() {
     document.getElementById("popup_stage3").style.display = "none";
 }
+
+var student;
+function deleteStudent() {
+    student = event.target.parentNode;
+    document.getElementById("popup_delete").style.display = "block";
+}
+
+function closeDelete() {
+    document.getElementById("popup_delete").style.display = "none";
+}
+
+function acceptDelete() {
+    document.getElementById("popup_delete").style.display = "none";
+    student.style.display = 'none';
+}
