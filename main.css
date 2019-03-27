@@ -2,10 +2,13 @@
 
 html {
     box-sizing: border-box;
-  }
-  *, *:before, *:after {
+}
+
+*,
+*:before,
+*:after {
     box-sizing: inherit;
-  }
+}
 
 body {
     background: rgb(188, 228, 224);
@@ -34,8 +37,13 @@ ul li {
     border-bottom: 2px rgb(83, 236, 223) solid;
 }
 
-ul li span {
+ul li span#code {
     color: rgb(8, 170, 156);
+}
+
+ul li span {
+    display: block;
+    color: rgb(172, 172, 172);
 }
 
 ul li i {
@@ -95,7 +103,9 @@ nav button:hover {
     color: rgb(172, 172, 172);
 }
 
-section, form, div.book {
+section,
+form,
+div.book {
     background: white;
     margin: 0 auto;
     max-width: 500px;
@@ -117,7 +127,8 @@ section {
     max-width: 1200px;
 }
 
-form h1, section h1 {
+form h1,
+section h1 {
     margin: 0 0 20px 0;
     text-align: center;
     color: rgb(8, 170, 156);
@@ -129,7 +140,8 @@ section h1 {
     margin-bottom: 8px;
 }
 
-form h2, section h2 {
+form h2,
+section h2 {
     margin: 0 0 6px 0;
     color: rgb(39, 39, 39);
     text-shadow: 0 0 1px rgb(172, 172, 172);
@@ -178,7 +190,8 @@ select {
     color: rgb(39, 39, 39);
 }
 
-form a, section a {
+form a,
+section a {
     display: inline-block;
     font-family: 'Arimo', sans-serif;
     font-size: 22px;
@@ -250,7 +263,10 @@ form a:hover {
     margin-top: 10px;
 }
 
-#popup_stage1, #popup_stage2, #popup_stage3, #popup_delete {
+#popup_stage1,
+#popup_stage2,
+#popup_stage3,
+#popup_delete {
     z-index: 100;
     display: none;
     position: fixed;
@@ -262,7 +278,8 @@ form a:hover {
 
 
 
-.bookbox, .codebox {
+.bookbox,
+.codebox {
     display: grid;
     overflow-x: scroll;
     max-height: 180px;
@@ -272,7 +289,8 @@ form a:hover {
     margin-bottom: 20px;
 }
 
-.bookbox .book, .codebox .code {
+.bookbox .book,
+.codebox .code {
     padding: 10px;
 }
 

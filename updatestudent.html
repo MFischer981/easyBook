@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav>
+        <a href="register.html"><i class="fas fa-user-plus"></i> Sign Up</a>
+        <a href="login.html"><i class="fas fa-sign-in-alt"></i> Sign In</a>
+    </nav>
+    <form method="post" class="userForm" action="/register">
+        <h1>EasyBook</h1>
+        <h2>Update Student Account</h2>
+        Account Type:
+        <label for="">First Name</label>
+        <input type="text" name="firstName">
+        <label for="">Last Name</label>
+        <input type="text" name="lastName">
+        <label for="">Email Address</label>
+        <input type="text" name="email">
+        <label for="">Grade Level</label>
+        <select name="type">
+            <option value="student">K</option>
+            <option value="student">1st</option>
+            <option value="student">2nd</option>
+            <option value="student">3rd</option>
+            <option value="student">4th</option>
+            <option value="student">5th</option>
+            <option value="student">6th</option>
+            <option value="student">7th</option>
+            <option value="student">8th</option>
+            <option value="student">9th</option>
+            <option value="student">10th</option>
+            <option value="student">11th</option>
+            <option value="student">12th</option>
+        </select>
+        <label for="">School Name</label>
+        <input type="text" name="school">
+        <input type="submit" name"submit"="" value="Update Information" class="uibutton">
+        <a href="login.html">Back</a>
+    </form>
+    <form action="">
+        <h2>Update Student Password</h2>
+        <label for="">Password</label>
+        <input type="password" name="password1">
+        <label for="">Confirm Password</label>
+        <input type="password" name="password2">
+        <input type="submit" name"submit"="" value="Update Password" class="uibutton">
+        <a href="login.html">Back</a>
+    </form>
+    <script src="" async defer></script>
+</body>
+
+</html>
